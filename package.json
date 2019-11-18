@@ -1,0 +1,16 @@
+{
+  "name": "htmltotemplate",
+  "version": "0.0.1",
+  "description": "a html to template language dsl example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "headwire.com, Inc",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs-extra": "^8.1.0",
+    "node-html-parser": "^1.1.16"
+  }
+}

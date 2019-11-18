@@ -1,0 +1,37 @@
+{
+  "definitions": {
+    "Download": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "filename": {
+          "type": "string"
+        }, 
+        "size": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string"
+        },
+        "displaySize": {
+          "type": "boolean"
+        },
+        "displayFormat": {
+          "type": "boolean"
+        },
+        "displayFilename": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
