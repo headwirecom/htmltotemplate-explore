@@ -12,6 +12,10 @@ module.exports = {
     $(selector).text('${'+field+'}');
   },
 
+  mapRichText($, selector, field) {
+    $(selector).text('${'+field+' @ context=;QUOT;html;QUOT;}');
+  },
+
   mapAttr($, selector, attribute, value) {
     $(selector).attr(attribute, '${'+value+'}');
   },

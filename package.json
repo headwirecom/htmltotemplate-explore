@@ -9,6 +9,7 @@
   "author": "headwire.com, Inc",
   "license": "Apache-2.0",
   "dependencies": {
+    "@adobe/htlengine": "^3.2.8",
     "cheerio": "^1.0.0-rc.3",
     "fs-extra": "^8.1.0",
     "node-html-parser": "^1.1.16"
